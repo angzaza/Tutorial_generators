@@ -34,7 +34,7 @@
 	We can see the Feynman diagrams of the generated process in the file:
 	MG5_aMC_v2_9_2/prova1/SubProcesses/P1_ll_hvlvl_h_zll_z_ll/matrix1.ps
 
-2 diagrams have been generated
+	2 diagrams have been generated
 
 5) generate events
 	In the folder MG5_aMC_v2_9_2/prova1/Cards several cards that define the parameters for the generation are created
