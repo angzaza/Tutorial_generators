@@ -25,26 +25,34 @@
 	mu+ mu- -> H vm vm~ -> Z Z* vm vm~ -> mu+ mu- mu+ mu- vm vm~
 
 	In order to generate this process in Madgraph, we do:
+	
+
 		MG5_aMC>generate mu+ mu- > H vm vm~ , (H > Z mu+ mu- , Z > mu+ mu-)
 
 	Save the process in the folder "signal"
+	
 		MG5_aMC>output signal
 
 4) Feynman diagrams	
 	We can see the Feynman diagrams of the generated process in the file:
-	MG5_aMC_v2_9_2/prova1/SubProcesses/P1_ll_hvlvl_h_zll_z_ll/matrix1.ps
+	
+	MG5_aMC_v2_9_2/signal/SubProcesses/P1_ll_hvlvl_h_zll_z_ll/matrix1.ps
 
 	2 diagrams have been generated
 
 5) generate events
-	In the folder MG5_aMC_v2_9_2/prova1/Cards several cards that define the parameters for the generation are created
+	In the folder MG5_aMC_v2_9_2/signal/Cards several cards that define the parameters for the generation are created
+	
 	Open and modify the card run_card.dat
-	We want to generate 1000 events with a center-of-mass energy of 1500 GeV 
+	
+	We want to generate 1000 events at a center-of-mass energy of 1500 GeV 
 
 	In Madgraph, execute the following command:
-		MG5_aMC>launch prova1/
+	
+		MG5_aMC>launch signal/
 
 	In order to activate Pythia:
+	
 		>shower=Pythia8
 		>done
 
