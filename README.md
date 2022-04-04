@@ -33,7 +33,8 @@
 	
 		MG5_aMC>output signal
 
-4) Feynman diagrams	
+4) Feynman diagrams
+ 	
 	We can see the Feynman diagrams of the generated process in the file:
 	
 	MG5_aMC_v2_9_2/signal/SubProcesses/P1_ll_hvlvl_h_zll_z_ll/matrix1.ps
@@ -41,6 +42,7 @@
 	2 diagrams have been generated
 
 5) generate events
+	
 	In the folder MG5_aMC_v2_9_2/signal/Cards several cards that define the parameters for the generation are created
 	
 	Open and modify the card run_card.dat
